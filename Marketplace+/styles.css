@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header {
+  background-color: #832222;
+  color: #fff;
+  padding: 20px;
+  }
+  
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  }
+  
+  nav ul li {
+  display: inline;
+  }
+  
+  nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  }
+  
+  nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+  }
+  
+  section#home-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  .image-container {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  }
+  
+  .image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  .cart-button {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  }
+  
+  .cart-button:hover {
+  background-color: #555;
+  }
+  /* for login page */
+  .login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      text-align: center;
+    }
+  
+    nav {
+      display: block;
+      text-align: center;
+    }
+  
+    nav ul {
+      padding: 0;
+    }
+  
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  
+    .image-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .cart-button {
+      display: block;
+      margin: 10px auto;
+    }
+  }
+  
+  /* Add your CSS styles here */
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+

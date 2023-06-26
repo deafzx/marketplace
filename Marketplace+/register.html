@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marketplace+ - Register</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Marketplace+</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sell.html">Sell</a></li>
+      <li><a href="rent.html">Rent</a></li>
+      <!-- <li><a href="request.html">Request</a></li> -->
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+  
+  <section id="register-section">
+    <h2>Create an Account</h2>
+    <form action="/register" method="POST">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Register">
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Online Marketplace</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
